@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.example {
+    margin: 20px;
+}
+
+body {
+    font-size: var(--button-font-size);
+}
+
+:root {
+    --button-height: 32px;
+    --button-font-size: 14px;
+    --button-bg: white;
+    --button-active-bg: #eee;
+    --button-border-radius: 4px;
+    --button-color: #999;
+    --button-border-color: #999;
+    --button-cloor-hover: #666;
+}

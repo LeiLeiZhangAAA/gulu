@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>轱辘</title>
+</head>
+<link href="src/css/style.css" rel="stylesheet">
+<body>
+<div class="example">
+    <g-button icon-name="setting" :loading="loadingStatus1" position="right" @click="loadingStatus1 = !loadingStatus1">
+        按钮
+    </g-button>
+    <g-button icon-name="right" :loading="loadingStatus2" @click="loadingStatus2 = !loadingStatus2">
+        按钮
+    </g-button>
+    <g-button>
+        按钮
+    </g-button>
+    <g-button-group>
+        <g-button icon-name="left"> 上一页 </g-button>
+        <g-button icon-name="right" position="right"> 下一页 </g-button>
+    </g-button-group>
+
+    <g-icon icon-name="download"></g-icon>
+    <g-icon icon-name="down"></g-icon>
+    <g-icon icon-name="right"></g-icon>
+    <g-icon icon-name="left"></g-icon>
+    <g-icon icon-name="praise"></g-icon>
+    <g-icon icon-name="loding"></g-icon>
+</div>
+<!--<div class="test"></div>-->
+</body>
+<script src="src/js/main.js"></script>
+<script src="//at.alicdn.com/t/font_2061063_w3e1vi70lz.js"></script>
+</html>
